@@ -5,8 +5,11 @@
 /global_react/.pnp
 /global_react .pnp.js
 /.vscode
-/Umbraco7.10/App_Data/TEMP/ClientDependency
+/Umbraco7.10/App_Data/TEMP/
 /Umbraco7.10/.vscode/iisexpress.json
+*.lock
+
+
 # testing
 /coverage
 
