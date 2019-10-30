@@ -1017,3 +1017,4 @@ System.Web.Http.HttpResponseException: Processing of the HTTP request resulted i
  2019-10-30 13:55:35,906 [P26444/D2/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Global Total' with Id '1175' has been published.
  2019-10-30 13:55:40,194 [P26444/D2/T36] INFO  umbraco.content - Save Xml to file...
  2019-10-30 13:55:40,211 [P26444/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2019-10-30 14:07:19,383 [P26444/D2/T79] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: globalcms19@gmail.com, IP Address: ::1
