@@ -2,14 +2,23 @@ import React from "react";
 import "./App.css";
 import {
   GetCountry,
-  GetOffice
-  // GetDepartment,
-  // GetEmployee
+  GetOffice,
+  GetDepartment,
+  GetEmployee
 } from "./GetFunctions";
 
 function App() {
   GetCountry("Sweden").then(lo => console.log(lo));
   GetOffice("sweden", "global-total").then(foo => console.log(foo));
+  GetDepartment("sweden", "global-total", "awesome-department").then(q =>
+    console.log(q)
+  );
+  GetEmployee(
+    "sweden",
+    "global-total",
+    "awesome-department",
+    "alexander-olofsson"
+  ).then(p => console.log(p));
   return (
     <div className="App">
       <header className="App-header">
