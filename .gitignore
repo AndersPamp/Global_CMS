@@ -1,9 +1,14 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/global_react/node_modules
+/global_react/.pnp
+/global_react .pnp.js
+/.vscode
+/Umbraco7.10/App_Data/TEMP/
+/Umbraco7.10/.vscode/iisexpress.json
+*.lock
+
 
 # testing
 /coverage
