@@ -9,13 +9,15 @@ import {
 
 function App() {
   GetCountry("Sweden").then(lo => console.log(lo));
-  GetOffice("Sweden", "Global-Total").then(foo => console.log(foo));
+  GetOffice("sweden", "global-total").then(foo => console.log(foo));
   return (
     <div className="App">
       <header className="App-header">
-        <input></input>
+        <input id="country-input"></input>
         <span>
-          <input></input>
+          <input id="office-input"></input>
+          <input id="department-input"></input>
+          <input id="employee-input"></input>
         </span>
       </header>
     </div>
