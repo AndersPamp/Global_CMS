@@ -21,4 +21,5 @@ const GetEmployee = async (country, office, department, employee) => {
     `http://localhost:16479/countries/${country}/${office}/${department}/${employee}/?AltTemplate=AsJson`
   ).then(result => result.json());
 };
+export default GetCountry;
 export { GetCountry, GetOffice, GetDepartment, GetEmployee };
