@@ -13,21 +13,24 @@ class GetCountryComponent extends Component {
         GetCountry("Sweden").then(data => {
         console.log(data);
         
-        let countries = data.office.map((countr, i) => {
+        let countries1 = data.office.map((countr) => {
             
             return(
-                <div key={countr.i++}>
+                <div key={countr}>
                     <h2>{countr.officename}</h2>
                     {console.log(countr)}
+                    {this.setState({countries: countr})};
+                    {console.log(this.state.countries)}
                 </div>
             )
             })
-        this.setState({countries});
+        
         })
     }
     render(){
         return(
-            <div>{this.state.countries}</div>
+            <div>sdfsdfsd{this.state.countries.toString()} {console.log(this.state.countries)}</div>
+           
         )
     }
     

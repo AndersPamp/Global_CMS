@@ -5,7 +5,7 @@ import App from './App';
 import GetCountryComponent from "./GetCountryComponent";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(<GetCountryComponent />, document.getElementById('GetCountry'));
 
 // If you want your app to work offline and load faster, you can change
