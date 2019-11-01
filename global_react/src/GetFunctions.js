@@ -15,10 +15,12 @@ const GetOffice = async (country, office) => {
   ).then(result => result.json());
 };
 
-const GetOfficesForSelect = country => {
-  return fetch(
+const GetOfficesForSelect = async country => {
+  let a = await fetch(
     `http://localhost:16479/countries/${country}/?AltTemplate=AsJson`
-  ).then(result => result.json());
+  );
+  a = await a.json();
+  return a.office;
 };
 
 const GetDepartment = async (country, office, department) => {
@@ -27,16 +29,34 @@ const GetDepartment = async (country, office, department) => {
   ).then(result => result.json());
 };
 
-const GetDepartmentsForSelect = (country, office) => {
-  return fetch(
-    `http://localhost:16479/countries/${country}/${office}/?AltTemplate=AsJson`
-  ).then(result => result.json());
+const GetDepartmentsForSelect = async (country, office) => {
+  // console.log(country, office);
+  let a = await fetch(
+    `http://localhost:16479/countries/${country}/${office.replace(
+      " ",
+      "-"
+    )}/?AltTemplate=AsJson`
+  );
+  a = await a.json();
+  // console.log(a);
+  return a.departement;
 };
 
 const GetEmployee = async (country, office, department, employee) => {
   return await fetch(
     `http://localhost:16479/countries/${country}/${office}/${department}/${employee}/?AltTemplate=AsJson`
   ).then(result => result.json());
+};
+
+const GetEmployees = async (country, office, department) => {
+  let a = await fetch(
+    `http://localhost:16479/countries/${country}/${office.replace(
+      " ",
+      "-"
+    )}/${department.replace(/ /g, "-")}/?AltTemplate=AsJson`
+  );
+  a = await a.json();
+  return a;
 };
 
 export {
@@ -46,5 +66,6 @@ export {
   GetOfficesForSelect,
   GetDepartment,
   GetDepartmentsForSelect,
-  GetEmployee
+  GetEmployee,
+  GetEmployees
 };

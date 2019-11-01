@@ -6,7 +6,7 @@ import "./App.css";
 //   GetDepartment,
 //   GetEmployee
 // } from "./GetFunctions";
-import { Country, Office, Department } from "./SelectTags";
+import { Country, Office, Department, Employees } from "./SelectTags";
 
 function App() {
   useEffect(() => {
@@ -27,12 +27,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <select id="country-select"></select>
-        <span>
-          <select id="office-select"></select>
-          <select id="department-select"></select>
-          <select id="employee-select"></select>
-        </span>
+        <label htmlFor="country-select">Country</label>
+        <select id="country-select" onChange={Office}></select>
+        <label htmlFor="office-select">Office</label>
+        <select id="office-select" onChange={Department}></select>
+        <label htmlFor="department-select">Department</label>
+        <select id="department-select" onChange={Employees}></select>
+        {/* <select id="employee-select"></select> */}
+        <div id="emp-list"></div>
       </header>
     </div>
   );
