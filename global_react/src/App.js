@@ -6,11 +6,12 @@ import "./App.css";
 //   GetDepartment,
 //   GetEmployee
 // } from "./GetFunctions";
-import { Country, Office, Department, Employees } from "./SelectTags";
+import { Country, Office, Department, Employees, OfficeEmployees } from "./SelectTags";
 
 function App() {
   useEffect(() => {
     Country();
+    
   });
   // GetCountry("Sweden").then(lo => console.log(lo));
   // GetOffice("sweden", "global-total").then(foo => console.log(foo));
@@ -35,6 +36,7 @@ function App() {
         <select id="department-select" onChange={Employees}></select>
         {/* <select id="employee-select"></select> */}
         <div id="emp-list"></div>
+        
       </header>
     </div>
   );
