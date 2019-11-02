@@ -24,10 +24,12 @@ function App() {
   //   "awesome-department",
   //   "alexander-olofsson"
   // ).then(p => console.log(p));
-
+  
+ 
   return (
     <div className="App">
       <header className="App-header">
+        <input id="search-box"></input>
         <label htmlFor="country-select">Country</label>
         <select id="country-select" onChange={Office}></select>
         <label htmlFor="office-select">Office</label>
@@ -35,6 +37,7 @@ function App() {
         <label htmlFor="department-select">Department</label>
         <select id="department-select" onChange={Employees}></select>
         {/* <select id="employee-select"></select> */}
+        <div id="SearchingIn" ></div>
         <div id="emp-list"></div>
         
       </header>

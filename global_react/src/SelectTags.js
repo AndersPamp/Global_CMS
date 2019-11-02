@@ -40,6 +40,7 @@ async function Office() {
 }
 
 async function Department() {
+  
   const empTag = document.getElementById("emp-list");
   while (empTag.hasChildNodes()) {  
     empTag.removeChild(empTag.firstChild);
@@ -63,6 +64,8 @@ async function Department() {
 }
 
 async function Employees() {
+  document.getElementById('SearchingIn').textContent = "Search at Department Level";
+  const searchCriteria = document.getElementById('search-box').value
   const empTag = document.getElementById("emp-list");
   while (empTag.hasChildNodes()) {  
     empTag.removeChild(empTag.firstChild);
@@ -77,29 +80,41 @@ async function Employees() {
     department.replace(/ /g, "-")
   );
   console.log("Employees: ", employees);
+  let empFiltered = employees.employee.filter(filtered => 
+    filtered.lastName.includes(searchCriteria) || 
+    filtered.firstName.includes(searchCriteria) ||
+    filtered.email.includes(searchCriteria));
+  console.log(empFiltered);
   const ul = document.createElement("ul");
-  employees.employee.forEach(emp =>
+  for(let i = 0; i < empFiltered.length; i++)
+  {
     ul.insertAdjacentHTML(
       "beforeend",
       `
   <li>
-  <div>${emp.empNo}</div>
-  <div>${emp.firstName} ${emp.lastName}</div>
-  <div>${emp.email}</div>
+  <div>${empFiltered[i].empNo}</div>
+  <div>${empFiltered[i].firstName} ${empFiltered[i].lastName}</div>
+  <div>${empFiltered[i].email}</div>
   </li>`
     )
-  );
+  }
+
   empTag.appendChild(ul);
 }
 
 async function OfficeEmployees()
 {
+  document.getElementById('SearchingIn').textContent = "Search at Office Level";
+  const searchCriteria = document.getElementById('search-box').value
+  console.log(searchCriteria);
   const country = document.getElementById("country-select").value;
   const office = document.getElementById("office-select").value;
   const departments = await GetDepartmentsForSelect(country, office.replace(" ", "-"));
   const empTag = document.getElementById("emp-list");
   console.log(departments);
   let employees = [];
+  let emp = [];
+  let numOfEmployees = 0;
   for(let i = 0; i < departments.length; i++)
   {
     employees[i] = departments[i].employee;
@@ -110,24 +125,36 @@ async function OfficeEmployees()
   {
     for(let j = 0; j < employees[i].length; j++)
     {
-      
-      ul.insertAdjacentHTML(
-        "beforeend",
-        `
-    <li>
-    <div>${employees[i][j].empNo}</div>
-    <div>${employees[i][j].firstName} ${employees[i][j].lastName}</div>
-    <div>${employees[i][j].email}</div>
-    </li>`
-      )
+       emp[numOfEmployees++] = employees[i][j];
+       console.log(emp);
     }
    
+  }
+  let empFiltered = emp
+    .filter(filtered => 
+      filtered.lastName.includes(searchCriteria) || 
+      filtered.firstName.includes(searchCriteria) ||
+      filtered.email.includes(searchCriteria));
+  console.log(empFiltered);
+  for(let i = 0; i < empFiltered.length; i++)
+  {
+    ul.insertAdjacentHTML(
+      "beforeend",
+      `
+  <li>
+  <div>${empFiltered[i].empNo}</div>
+  <div>${empFiltered[i].firstName} ${empFiltered[i].lastName}</div>
+  <div>${empFiltered[i].email}</div>
+  </li>`
+    )
   }
   empTag.appendChild(ul);
 }
 
 async function CountryEmployees()
 {
+  document.getElementById('SearchingIn').textContent = "Search at Country Level";
+  const searchCriteria = document.getElementById('search-box').value
   const country = document.getElementById("country-select").value;
   const office = await GetOfficesForSelect(country);
   const empTag = document.getElementById("emp-list");
@@ -150,16 +177,20 @@ async function CountryEmployees()
       newEmpArr[numOfEmployees++]= employees[i][j];
     }
   }
+  let empFiltered = newEmpArr.filter(filtered => 
+    filtered.lastName.includes(searchCriteria) || 
+    filtered.firstName.includes(searchCriteria) ||
+    filtered.email.includes(searchCriteria));
   const ul = document.createElement("ul");
-  for(let i = 0; i < newEmpArr.length; i++)
+  for(let i = 0; i < empFiltered.length; i++)
   { 
       ul.insertAdjacentHTML(
         "beforeend",
         `
     <li>
-    <div>${newEmpArr[i].empNo}</div>
-    <div>${newEmpArr[i].firstName} ${newEmpArr[i].lastName}</div>
-    <div>${newEmpArr[i].email}</div>
+    <div>${empFiltered[i].empNo}</div>
+    <div>${empFiltered[i].firstName} ${empFiltered[i].lastName}</div>
+    <div>${empFiltered[i].email}</div>
     </li>`
       )
     }
