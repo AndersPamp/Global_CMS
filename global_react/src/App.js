@@ -6,7 +6,7 @@ import "./App.css";
 //   GetDepartment,
 //   GetEmployee
 // } from "./GetFunctions";
-import { Country, Office, Department, Employees, OfficeEmployees } from "./SelectTags";
+import { Country, Office, Department, Employees } from "./SelectTags";
 
 function App() {
   useEffect(() => {

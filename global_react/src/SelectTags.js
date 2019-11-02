@@ -1,4 +1,4 @@
-import React from "react";
+
 import {
   GetCountriesForSelect,
   GetOfficesForSelect,
@@ -21,6 +21,11 @@ async function Country() {
 }
 
 async function Office() {
+  const empTag = document.getElementById("emp-list");
+  while (empTag.hasChildNodes()) {  
+    empTag.removeChild(empTag.firstChild);
+  } 
+  CountryEmployees();
   const country = document.getElementById("country-select").value;
   const officeSelectTag = document.getElementById("office-select");
   const offices = (await GetOfficesForSelect(country)).map(o => o.officeName);
@@ -100,12 +105,12 @@ async function OfficeEmployees()
     employees[i] = departments[i].employee;
   }
   const ul = document.createElement("ul");
-  let employee1 = [];
+  
   for(let i = 0; i < employees.length; i++)
   {
     for(let j = 0; j < employees[i].length; j++)
     {
-      console.log(employees[i][j]);
+      
       ul.insertAdjacentHTML(
         "beforeend",
         `
@@ -116,9 +121,48 @@ async function OfficeEmployees()
     </li>`
       )
     }
-   console.log(employees[i].lastName);
+   
   }
   empTag.appendChild(ul);
 }
 
+async function CountryEmployees()
+{
+  const country = document.getElementById("country-select").value;
+  const office = await GetOfficesForSelect(country);
+  const empTag = document.getElementById("emp-list");
+  let employees = [];
+  let deps = [];
+  let numOfEmployees = 0;
+  for(let i = 0; i < office.length; i++)
+  {
+    deps[i] = office[i].departement;
+    for(let j = 0; j < deps[i].length; j++)
+    {
+      employees.push(deps[i][j]['employee']);
+    }
+  }
+  let newEmpArr = [];
+  for(let i = 0; i < employees.length; i++)
+  {
+    for(let j = 0; j < employees[i].length; j++)
+    {
+      newEmpArr[numOfEmployees++]= employees[i][j];
+    }
+  }
+  const ul = document.createElement("ul");
+  for(let i = 0; i < newEmpArr.length; i++)
+  { 
+      ul.insertAdjacentHTML(
+        "beforeend",
+        `
+    <li>
+    <div>${newEmpArr[i].empNo}</div>
+    <div>${newEmpArr[i].firstName} ${newEmpArr[i].lastName}</div>
+    <div>${newEmpArr[i].email}</div>
+    </li>`
+      )
+    }
+  empTag.appendChild(ul);
+}
 export { Country, Office, Department, Employees, OfficeEmployees };
