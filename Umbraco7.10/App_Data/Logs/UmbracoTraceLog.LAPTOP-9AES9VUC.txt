@@ -342,3 +342,20 @@
  2019-11-03 08:30:02,290 [P15700/D2/T144] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
  2019-11-03 08:30:02,318 [P15700/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
  2019-11-03 08:30:03,900 [P15700/D2/T207] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 17:00:32,370 [P15700/D2/T332] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 17:00:32,408 [P15700/D2/T312] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 17:01:06,100 [P15700/D2/T304] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 17:01:06,134 [P15700/D2/T332] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 17:01:15,095 [P15700/D2/T309] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 18:52:12,853 [P15700/D2/T177] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username globalcms19@gmail.com from IP address ::1
+ 2019-11-03 18:52:12,853 [P15700/D2/T177] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: globalcms19@gmail.com logged in from IP address ::1
+ 2019-11-03 18:52:15,237 [P15700/D2/T56] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-11-02 18:52:15
+ 2019-11-03 18:52:33,963 [P15700/D2/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Awesome Department' with Id '1176' has been published.
+ 2019-11-03 18:52:38,138 [P15700/D2/T195] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 18:52:38,151 [P15700/D2/T195] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 18:54:19,812 [P15700/D2/T257] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Awesome Department' with Id '1176' has been published.
+ 2019-11-03 18:54:23,969 [P15700/D2/T260] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 18:54:23,994 [P15700/D2/T260] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 19:11:43,753 [P15700/D2/T248] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: globalcms19@gmail.com, IP Address: ::1
+ 2019-11-03 19:29:50,232 [P15700/D2/T81] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username globalcms19@gmail.com from IP address ::1
+ 2019-11-03 19:29:50,232 [P15700/D2/T81] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: globalcms19@gmail.com logged in from IP address ::1
