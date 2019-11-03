@@ -8,15 +8,104 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  margin: 3%;
+  padding: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(15px + 2vmin);
+  font-weight: bolder;
   color: white;
+}
+
+h1 {
+  color: #282c34
+}
+
+.Search-content {
+  margin: 0 auto;
+  width: 60%;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+ul {
+  padding: 5px 0;
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+}
+
+li {
+  color: black;
+  list-style: none;
+  border-style: none;
+}
+
+input {
+  width: 85%;
+  margin: 1%;
+  height: 20px;
+  padding: 1%;
+}
+
+select {
+  width: 200px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 5px;
+  height: 25px;
+}
+
+#SearchingIn {
+  padding: 5px;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+#emp-list {
+  text-align: left;
+  list-style: none;
+}
+
+#emp-list-labels {
+  font-weight: bold;
+  text-align: left;
+  background-color: rgb(206, 206, 206);
+}
+
+#span-empNo {
+  width: 5%;
+  float: left;
+}
+
+#span-name {
+  width: 25%;
+  float: left;
+}
+#span-email {
+  width: 25%;
+  float: left;
+}
+#span-phonenr {
+  width: 25%;
+  float: left;
+}
+#span-phonenrAbbr {
+  width: 10%;
+  float: left;
+}
+#span-empNo {
+  width: 10%;
+  float: left;
+}
+
+.clear {
+  clear: both;
 }
