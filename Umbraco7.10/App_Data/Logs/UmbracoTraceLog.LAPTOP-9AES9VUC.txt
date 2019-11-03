@@ -70,3 +70,275 @@
  2019-10-28 14:00:49,307 [P2872/D2/T17] INFO  Umbraco.Core.PluginManager - Resolving umbraco.cms.businesslogic.macro.IMacroEngine
  2019-10-28 14:00:49,318 [P2872/D2/T17] INFO  Umbraco.Core.PluginManager - Resolved umbraco.cms.businesslogic.macro.IMacroEngine (took 10ms)
  2019-10-28 14:01:35,794 [P2872/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-10-27 14:01:35
+ 2019-11-03 07:03:10,149 [P15700/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.10.5 application starting on LAPTOP-9AES9VUC
+ 2019-11-03 07:03:10,173 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2019-11-03 07:03:10,180 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 6ms)
+ 2019-11-03 07:03:10,225 [P15700/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2019-11-03 07:03:10,226 [P15700/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2019-11-03 07:03:10,228 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:11,483 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1255ms)
+ 2019-11-03 07:03:11,484 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2019-11-03 07:03:11,487 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 2ms)
+ 2019-11-03 07:03:11,558 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:11,558 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:11,559 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2019-11-03 07:03:11,559 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2019-11-03 07:03:11,559 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:11,559 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:11,559 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2019-11-03 07:03:11,560 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 1ms)
+ 2019-11-03 07:03:11,573 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:11,573 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:11,573 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2019-11-03 07:03:11,574 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 0ms)
+ 2019-11-03 07:03:11,574 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:11,574 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:11,574 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2019-11-03 07:03:11,575 [P15700/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 0ms)
+ 2019-11-03 07:03:13,330 [P15700/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2019-11-03 07:03:13,716 [P15700/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2019-11-03 07:03:13,947 [P15700/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2019-11-03 07:03:14,088 [P15700/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2019-11-03 07:03:14,097 [P15700/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4075ms)
+ 2019-11-03 07:03:15,931 [P15700/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - New ApplicationUrl detected: http://localhost:16479/umbraco
+ 2019-11-03 07:03:15,933 [P15700/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://localhost:16479/umbraco (UmbracoModule request)
+ 2019-11-03 07:03:16,199 [P15700/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2019-11-03 07:03:16,201 [P15700/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2019-11-03 07:03:16,689 [P15700/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:16,689 [P15700/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:16,689 [P15700/D2/T10] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IParameterEditor
+ 2019-11-03 07:03:16,689 [P15700/D2/T10] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IParameterEditor (took 0ms)
+ 2019-11-03 07:03:17,892 [P15700/D2/T10] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 07:03:26,983 [P15700/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:26,983 [P15700/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:26,983 [P15700/D2/T7] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-11-03 07:03:26,983 [P15700/D2/T7] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-11-03 07:03:27,079 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:27,079 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:27,079 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IAction
+ 2019-11-03 07:03:27,079 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IAction (took 0ms)
+ 2019-11-03 07:03:29,386 [P15700/D2/T13] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username globalcms19@gmail.com from IP address ::1
+ 2019-11-03 07:03:29,387 [P15700/D2/T13] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: globalcms19@gmail.com logged in from IP address ::1
+ 2019-11-03 07:03:29,820 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:29,821 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:29,821 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ITree
+ 2019-11-03 07:03:29,821 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ITree (took 0ms)
+ 2019-11-03 07:03:29,836 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:29,836 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:29,837 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController
+ 2019-11-03 07:03:29,837 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Web.Trees.TreeAttribute]Umbraco.Web.Trees.TreeController (took 0ms)
+ 2019-11-03 07:03:29,839 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:29,839 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:29,839 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree
+ 2019-11-03 07:03:29,839 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.TreeAttribute]umbraco.interfaces.ITree (took 0ms)
+ 2019-11-03 07:03:29,861 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:29,861 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:29,862 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolving [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication
+ 2019-11-03 07:03:29,862 [P15700/D2/T15] INFO  Umbraco.Core.PluginManager - Resolved [umbraco.businesslogic.ApplicationAttribute]umbraco.interfaces.IApplication (took 0ms)
+ 2019-11-03 07:03:30,046 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:03:30,046 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:03:30,046 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolving [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2019-11-03 07:03:30,047 [P15700/D2/T14] INFO  Umbraco.Core.PluginManager - Resolved [Umbraco.Core.Persistence.Mappers.MapperForAttribute]Umbraco.Core.Persistence.Mappers.BaseMapper (took 0ms)
+ 2019-11-03 07:04:16,278 [P15700/D2/T17] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2019-11-02 07:04:16
+ 2019-11-03 07:06:33,436 [P15700/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:06:33,437 [P15700/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:06:33,437 [P15700/D2/T9] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.Deploy.IServiceConnector
+ 2019-11-03 07:06:33,437 [P15700/D2/T9] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.Deploy.IServiceConnector (took 0ms)
+ 2019-11-03 07:08:57,199 [P15700/D2/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kalle Anka' with Id '0' has been published.
+ 2019-11-03 07:08:57,341 [P15700/D2/T77] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2019-11-03 07:08:57,341 [P15700/D2/T77] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2019-11-03 07:08:57,341 [P15700/D2/T77] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.ICacheRefresher
+ 2019-11-03 07:08:57,343 [P15700/D2/T77] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.ICacheRefresher (took 1ms)
+ 2019-11-03 07:09:01,485 [P15700/D2/T80] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:09:01,507 [P15700/D2/T80] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:09:47,711 [P15700/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anna Anka' with Id '0' has been published.
+ 2019-11-03 07:09:51,877 [P15700/D2/T97] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:09:51,885 [P15700/D2/T97] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:10:07,694 [P15700/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1205' has been published.
+ 2019-11-03 07:10:11,880 [P15700/D2/T95] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:10:11,887 [P15700/D2/T95] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:11:17,816 [P15700/D2/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Philip Englund' with Id '0' has been published.
+ 2019-11-03 07:11:21,967 [P15700/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:11:21,982 [P15700/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:12:11,711 [P15700/D2/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Joakim Hall' with Id '0' has been published.
+ 2019-11-03 07:12:15,873 [P15700/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:12:15,881 [P15700/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:12:41,701 [P15700/D2/T129] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1215' has been published.
+ 2019-11-03 07:12:45,846 [P15700/D2/T129] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:12:45,859 [P15700/D2/T129] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:16:39,302 [P15700/D2/T162] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nils Holgesson' with Id '0' has been published.
+ 2019-11-03 07:16:43,467 [P15700/D2/T149] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:16:43,486 [P15700/D2/T149] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:17:35,891 [P15700/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hans Systersson' with Id '0' has been published.
+ 2019-11-03 07:17:40,050 [P15700/D2/T165] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:17:40,068 [P15700/D2/T165] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:18:02,674 [P15700/D2/T123] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1206' has been published.
+ 2019-11-03 07:18:06,828 [P15700/D2/T179] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:18:06,844 [P15700/D2/T179] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:18:53,617 [P15700/D2/T194] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bin Ladin' with Id '0' has been published.
+ 2019-11-03 07:18:57,783 [P15700/D2/T163] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:18:57,791 [P15700/D2/T163] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:19:55,855 [P15700/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alladin Paradis' with Id '0' has been published.
+ 2019-11-03 07:20:00,015 [P15700/D2/T213] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:20:00,027 [P15700/D2/T213] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:20:17,709 [P15700/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1216' has been published.
+ 2019-11-03 07:20:21,873 [P15700/D2/T205] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:20:21,884 [P15700/D2/T205] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:24:28,202 [P15700/D2/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sky Nespola' with Id '0' has been published.
+ 2019-11-03 07:24:32,357 [P15700/D2/T203] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:24:32,369 [P15700/D2/T203] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:25:14,859 [P15700/D2/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alba Rosa' with Id '0' has been published.
+ 2019-11-03 07:25:19,013 [P15700/D2/T156] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:25:19,023 [P15700/D2/T156] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:25:34,811 [P15700/D2/T203] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1207' has been published.
+ 2019-11-03 07:25:38,968 [P15700/D2/T156] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:25:38,977 [P15700/D2/T156] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:29:44,532 [P15700/D2/T131] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gertrude Bunschoten' with Id '0' has been published.
+ 2019-11-03 07:29:48,693 [P15700/D2/T113] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:29:48,701 [P15700/D2/T113] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:30:51,711 [P15700/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Madison Joosten' with Id '0' has been published.
+ 2019-11-03 07:30:55,874 [P15700/D2/T95] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:30:55,889 [P15700/D2/T95] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:31:15,700 [P15700/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1217' has been published.
+ 2019-11-03 07:31:19,856 [P15700/D2/T96] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:31:19,867 [P15700/D2/T96] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:32:18,614 [P15700/D2/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tony Holmwood' with Id '0' has been published.
+ 2019-11-03 07:32:22,763 [P15700/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:32:22,772 [P15700/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:33:31,019 [P15700/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Annika Reeves' with Id '0' has been published.
+ 2019-11-03 07:33:35,170 [P15700/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:33:35,182 [P15700/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:33:51,197 [P15700/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1208' has been published.
+ 2019-11-03 07:33:55,363 [P15700/D2/T64] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:33:55,380 [P15700/D2/T64] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:34:37,872 [P15700/D2/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tony Stark' with Id '0' has been published.
+ 2019-11-03 07:34:42,033 [P15700/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:34:42,044 [P15700/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:35:41,981 [P15700/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Peter Parker' with Id '0' has been published.
+ 2019-11-03 07:35:46,139 [P15700/D2/T231] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:35:46,153 [P15700/D2/T231] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:36:00,060 [P15700/D2/T232] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1218' has been published.
+ 2019-11-03 07:36:04,214 [P15700/D2/T235] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:36:04,222 [P15700/D2/T235] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:37:55,508 [P15700/D2/T249] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Anderson' with Id '0' has been published.
+ 2019-11-03 07:37:59,670 [P15700/D2/T263] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:37:59,688 [P15700/D2/T263] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:39:04,316 [P15700/D2/T252] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Björn Nifterik' with Id '0' has been published.
+ 2019-11-03 07:39:08,493 [P15700/D2/T276] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:39:08,502 [P15700/D2/T276] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:39:23,137 [P15700/D2/T249] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1209' has been published.
+ 2019-11-03 07:39:27,299 [P15700/D2/T273] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:39:27,325 [P15700/D2/T273] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:40:28,785 [P15700/D2/T271] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Odin Jansing' with Id '0' has been published.
+ 2019-11-03 07:40:32,951 [P15700/D2/T274] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:40:32,976 [P15700/D2/T274] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:41:40,748 [P15700/D2/T286] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Robin Alfons' with Id '0' has been published.
+ 2019-11-03 07:41:44,913 [P15700/D2/T258] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:41:44,921 [P15700/D2/T258] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:42:05,164 [P15700/D2/T250] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1219' has been published.
+ 2019-11-03 07:42:09,325 [P15700/D2/T240] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:42:09,332 [P15700/D2/T240] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:43:08,031 [P15700/D2/T236] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jaina Proudmoore' with Id '0' has been published.
+ 2019-11-03 07:43:12,200 [P15700/D2/T237] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:43:12,209 [P15700/D2/T237] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:45:24,483 [P15700/D2/T227] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sylvanas Windrunner' with Id '0' has been published.
+ 2019-11-03 07:45:28,642 [P15700/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:45:28,652 [P15700/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:45:48,640 [P15700/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1210' has been published.
+ 2019-11-03 07:45:52,803 [P15700/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:45:52,813 [P15700/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:47:13,210 [P15700/D2/T71] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lillian Voss' with Id '0' has been published.
+ 2019-11-03 07:47:17,375 [P15700/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:47:17,388 [P15700/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:48:27,548 [P15700/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anduin Lothar' with Id '0' has been published.
+ 2019-11-03 07:48:31,711 [P15700/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:48:31,719 [P15700/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:48:53,718 [P15700/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1220' has been published.
+ 2019-11-03 07:48:57,872 [P15700/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:48:57,893 [P15700/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:49:45,320 [P15700/D2/T126] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1220' has been published.
+ 2019-11-03 07:49:49,473 [P15700/D2/T126] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:49:49,498 [P15700/D2/T126] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:52:04,329 [P15700/D2/T123] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ogrim Doomhammer' with Id '0' has been published.
+ 2019-11-03 07:52:08,456 [P15700/D2/T143] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:52:08,469 [P15700/D2/T143] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:54:58,376 [P15700/D2/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Illidan Stormrage' with Id '0' has been published.
+ 2019-11-03 07:55:02,529 [P15700/D2/T149] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:55:02,548 [P15700/D2/T149] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:55:28,513 [P15700/D2/T198] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1211' has been published.
+ 2019-11-03 07:55:32,669 [P15700/D2/T219] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:55:32,688 [P15700/D2/T219] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 07:56:23,185 [P15700/D2/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jarod Shadowsong' with Id '0' has been published.
+ 2019-11-03 07:56:27,353 [P15700/D2/T218] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 07:56:27,371 [P15700/D2/T218] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:00:50,580 [P15700/D2/T220] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Legolas Svensson' with Id '0' has been published.
+ 2019-11-03 08:00:54,733 [P15700/D2/T133] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:00:54,752 [P15700/D2/T133] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:01:22,830 [P15700/D2/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1221' has been published.
+ 2019-11-03 08:01:26,982 [P15700/D2/T156] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:01:26,990 [P15700/D2/T156] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:02:20,455 [P15700/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bilbo Baggins' with Id '0' has been published.
+ 2019-11-03 08:02:24,608 [P15700/D2/T113] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:02:24,616 [P15700/D2/T113] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:04:12,560 [P15700/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leeloo Dallas' with Id '0' has been published.
+ 2019-11-03 08:04:16,728 [P15700/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:04:16,741 [P15700/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:04:34,932 [P15700/D2/T140] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1212' has been published.
+ 2019-11-03 08:04:39,091 [P15700/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:04:39,104 [P15700/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:06:11,333 [P15700/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jon Snow' with Id '0' has been published.
+ 2019-11-03 08:06:15,419 [P15700/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:06:15,430 [P15700/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:07:52,533 [P15700/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ramsay Bolton' with Id '0' has been published.
+ 2019-11-03 08:07:56,694 [P15700/D2/T229] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:07:56,703 [P15700/D2/T229] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:08:14,650 [P15700/D2/T230] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1222' has been published.
+ 2019-11-03 08:08:18,814 [P15700/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:08:18,823 [P15700/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:09:47,826 [P15700/D2/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Heidi Klum' with Id '0' has been published.
+ 2019-11-03 08:09:52,018 [P15700/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:09:52,030 [P15700/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:10:41,792 [P15700/D2/T246] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Heidi Klum' with Id '1265' has been published.
+ 2019-11-03 08:10:45,958 [P15700/D2/T255] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:10:45,974 [P15700/D2/T255] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:11:31,429 [P15700/D2/T246] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Albert Einstein' with Id '0' has been published.
+ 2019-11-03 08:11:35,593 [P15700/D2/T227] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:11:35,606 [P15700/D2/T227] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:11:47,721 [P15700/D2/T227] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1213' has been published.
+ 2019-11-03 08:11:51,880 [P15700/D2/T42] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:11:51,892 [P15700/D2/T42] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:14:48,126 [P15700/D2/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Greta Thunberg' with Id '0' has been published.
+ 2019-11-03 08:14:52,294 [P15700/D2/T71] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:14:52,302 [P15700/D2/T71] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:20:05,244 [P15700/D2/T135] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Carl Bildt' with Id '0' has been published.
+ 2019-11-03 08:20:09,424 [P15700/D2/T135] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:20:09,433 [P15700/D2/T135] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:20:27,282 [P15700/D2/T153] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1223' has been published.
+ 2019-11-03 08:20:31,461 [P15700/D2/T136] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:20:31,484 [P15700/D2/T136] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:22:35,538 [P15700/D2/T225] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Al Gore' with Id '0' has been published.
+ 2019-11-03 08:22:39,716 [P15700/D2/T195] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:22:39,739 [P15700/D2/T195] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:23:53,600 [P15700/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Joseph Stalin' with Id '0' has been published.
+ 2019-11-03 08:23:57,766 [P15700/D2/T135] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:23:57,778 [P15700/D2/T135] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:24:12,053 [P15700/D2/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research & Development' with Id '1214' has been published.
+ 2019-11-03 08:24:16,231 [P15700/D2/T216] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:24:16,239 [P15700/D2/T216] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:25:37,381 [P15700/D2/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Curt Cubain' with Id '0' has been published.
+ 2019-11-03 08:25:41,544 [P15700/D2/T179] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:25:41,567 [P15700/D2/T179] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:27:20,652 [P15700/D2/T184] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Brad Pitt' with Id '0' has been published.
+ 2019-11-03 08:27:24,812 [P15700/D2/T207] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:27:24,822 [P15700/D2/T207] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:27:37,401 [P15700/D2/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1224' has been published.
+ 2019-11-03 08:27:41,563 [P15700/D2/T278] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:27:41,573 [P15700/D2/T278] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:28:18,143 [P15700/D2/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Administration' with Id '1224' has been published.
+ 2019-11-03 08:28:22,281 [P15700/D2/T218] INFO  umbraco.content - Save Xml to file...
+ 2019-11-03 08:28:22,290 [P15700/D2/T218] INFO  umbraco.content - Saved Xml to file.
+ 2019-11-03 08:29:55,001 [P15700/D2/T154] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 08:29:55,029 [P15700/D2/T207] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 08:30:02,290 [P15700/D2/T144] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 08:30:02,318 [P15700/D2/T142] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2019-11-03 08:30:03,900 [P15700/D2/T207] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
