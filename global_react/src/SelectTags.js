@@ -85,7 +85,8 @@ async function Employees() {
     filtered =>
       filtered.lastName.includes(searchCriteria) ||
       filtered.firstName.includes(searchCriteria) ||
-      filtered.email.includes(searchCriteria)
+      filtered.email.includes(searchCriteria) ||
+      (filtered.firstName + " " + filtered.lastName).includes(searchCriteria)
   );
   console.log(empFiltered);
 
@@ -139,12 +140,13 @@ async function OfficeEmployees() {
       console.log(emp);
     }
   }
-
+  
   let empFiltered = emp.filter(
     filtered =>
       filtered.lastName.includes(searchCriteria) ||
       filtered.firstName.includes(searchCriteria) ||
-      filtered.email.includes(searchCriteria)
+      filtered.email.includes(searchCriteria) ||
+      (filtered.firstName + " " + filtered.lastName).includes(searchCriteria)
   );
   console.log(empFiltered);
 
@@ -197,7 +199,8 @@ async function CountryEmployees() {
     filtered =>
       filtered.lastName.includes(searchCriteria) ||
       filtered.firstName.includes(searchCriteria) ||
-      filtered.email.includes(searchCriteria)
+      filtered.email.includes(searchCriteria) ||
+      (filtered.firstName + " " + filtered.lastName).includes(searchCriteria)
   );
   const ul = document.createElement("ul");
 
